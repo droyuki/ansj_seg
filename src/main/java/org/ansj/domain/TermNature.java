@@ -2,12 +2,14 @@ package org.ansj.domain;
 
 import org.ansj.library.NatureLibrary;
 
+import java.io.Serializable;
+
 /**
  * 一个词里面会有一些词性
  * 
  * @author ansj
  */
-public class TermNature {
+public class TermNature implements Serializable {
 	/**
 	 * 系统内置的几个
 	 */

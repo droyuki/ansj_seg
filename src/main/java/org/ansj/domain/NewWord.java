@@ -1,12 +1,14 @@
 package org.ansj.domain;
 
+import java.io.Serializable;
+
 /**
  * 新词发现,实体名
  * 
  * @author ansj
  * 
  */
-public class NewWord {
+public class NewWord implements Serializable {
 	// 名字
 	private String name;
 	// 分数

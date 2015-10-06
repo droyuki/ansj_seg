@@ -1,11 +1,12 @@
 package org.ansj.domain;
 
+import java.io.Serializable;
 import java.util.List;
 
 import org.ansj.util.MathUtil;
 import org.nlpcn.commons.lang.util.StringUtil;
 
-public class Term implements Comparable<Term> {
+public class Term implements Comparable<Term>, Serializable {
 	// 当前词
 	private String name;
 	//

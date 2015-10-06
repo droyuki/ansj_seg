@@ -2,13 +2,15 @@ package org.ansj.domain;
 
 import org.ansj.library.NatureLibrary;
 
+import java.io.Serializable;
+
 /**
  * 这里面封装了一些基本的词性.
  * 
  * @author ansj
  * 
  */
-public class Nature {
+public class Nature implements Serializable {
 	// 词性的名称
 	public final String natureStr;
 	// 词性对照表的位置
